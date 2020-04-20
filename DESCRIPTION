@@ -1,0 +1,17 @@
+Package: FC721CV19
+Type: Package
+Title: Fetches Covid19 Epi Data, Enriches with County Info
+Version: 0.1.0
+Author: T.B. Kepler
+Maintainer: T.B. Kepler <tbkepler@bu.edu>
+Description: Imports data from the NYT Covid-19 Epi repository.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    readr,
+    curl
+RoxygenNote: 7.1.0
+Depends: 
+    R (>= 2.10)
